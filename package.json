@@ -1,0 +1,39 @@
+{
+  "name": "jsonld-easy",
+  "version": "0.1.0",
+  "description": "A lightweight, zero-dependency TypeScript library to effortlessly generate JSON-LD structured data for SEO purposes.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litepacks/jsonld-easy.git"
+  },
+  "keywords": [
+    "json-ld",
+    "jsonld",
+    "structured-data",
+    "schema.org",
+    "seo",
+    "typescript"
+  ],
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "cond",
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+tests/
+.github/
+.vscode/
+.prettierrc
+.prettierignore
+.eslintrc
+.eslintignore
+.gitignore
+.npmignore
+.npmrc
+.npmignore
