@@ -55,6 +55,7 @@ console.log(scriptTag);
 -   `article(input: ArticleInput)`
 -   `breadcrumb(items: BreadcrumbListItem[])`
 -   `faqPage(input: FAQPageInput)`
+-   `image(input: ImageObjectInput)`
 -   `localBusiness(input: LocalBusinessInput)`
 -   `product(input: ProductInput)`
 -   `website(input: WebSiteInput)`
