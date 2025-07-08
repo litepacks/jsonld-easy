@@ -4,6 +4,8 @@ export interface ImageObjectInput {
   height: number;
   caption?: string;
   name?: string;
+  datePublished?: string;
+  thumbnailUrl?: string;
 }
 
 export function image(input: ImageObjectInput) {
@@ -15,6 +17,8 @@ export function image(input: ImageObjectInput) {
     height: String(input.height),
     ...(input.caption && { caption: input.caption }),
     ...(input.name && { name: input.name }),
+    ...(input.datePublished && { datePublished: input.datePublished }),
+    ...(input.thumbnailUrl && { thumbnailUrl: input.thumbnailUrl }),
   };
   return j;
 } 

@@ -26,6 +26,8 @@ describe('image', () => {
       height: 900,
       caption: 'A beautiful sunset.',
       name: 'Sunset Photo',
+      datePublished: '2024-05-21',
+      thumbnailUrl: 'https://example.com/photo-thumb.png',
     };
 
     const expected = {
@@ -36,6 +38,8 @@ describe('image', () => {
       height: '900',
       caption: 'A beautiful sunset.',
       name: 'Sunset Photo',
+      datePublished: '2024-05-21',
+      thumbnailUrl: 'https://example.com/photo-thumb.png',
     };
 
     expect(image(input)).toEqual(expected);
