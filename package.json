@@ -1,6 +1,6 @@
 {
   "name": "jsonld-easy",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A lightweight, zero-dependency TypeScript library to effortlessly generate JSON-LD structured data for SEO purposes.",
   "repository": {
     "type": "git",
@@ -14,7 +14,6 @@
     "seo",
     "typescript"
   ],
-  "type": "module",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
